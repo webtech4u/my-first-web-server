@@ -1,0 +1,7 @@
+require 'sinatra'
+require 'rubygems'
+require 'server.rub'
+
+get '/hi' do
+ "helo michael"
+ end
